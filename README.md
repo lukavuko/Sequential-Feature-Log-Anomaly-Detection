@@ -1,5 +1,5 @@
-# Log Anomaly Detection
- Just a log problem project.
+# A Log Anomaly Detection Project
+ An initial exploration into anomaly detection.
 
 
 ### Problem Statement
