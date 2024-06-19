@@ -13,6 +13,7 @@ Given a labelled system log file and/or sensor data, develop a feature extractio
 
 ### Model Philosophy
 - A recurrant neural network should perform well on sequential data (ie. event sequences). As such we'll try using LSTMs.
+- [For more details and in depth discussion go here]()
 
 ---
 
