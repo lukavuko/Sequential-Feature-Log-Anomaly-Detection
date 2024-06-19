@@ -1,9 +1,9 @@
 # A Log Anomaly Detection Project
- An initial exploration into anomaly detection.
+ An initial exploration into anomaly detection on Hadoop distributed system and vehicle networking logs.
 
 
 ### Problem Statement
-Given a labelled system log file and/or sensor data develop a feature extraction module for anomaly detection and then train the ML model.
+Given a labelled system log file and/or sensor data, develop a feature extraction module for anomaly detection.
 
 ### Feature Extraction Philosophy
 - To find an reliable predictor of anomalies, we need a feature that defines anomalies in log systems.
@@ -12,4 +12,20 @@ Given a labelled system log file and/or sensor data develop a feature extraction
 - Our primary feature should then relate to the sequence of events that takes places in a block instance.
 
 ### Model Philosophy
-- A recurrant neural network should perform well on sequential data (ie. event sequences). As such we'll try a model using LSTMs.
+- A recurrant neural network should perform well on sequential data (ie. event sequences). As such we'll try using LSTMs.
+
+---
+
+**A Hadoop distributed system log screenshot:**
+![HDFS Example](Images/fig/Slide1.PNG)
+
+**An example of sequential feature extraction:**
+![Feature Extraction](Images/fig/Slide3.png)
+
+---
+
+**A car networking log example:**
+![Car Example](Images/fig/Slide2.PNG)
+
+**An example of a slightly adapted sequential feature extraction:**
+![Feature Extraction](Images/fig/Slide4.png)
