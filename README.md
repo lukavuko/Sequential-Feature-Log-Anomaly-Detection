@@ -1,9 +1,6 @@
-# [2021] A Log Anomaly Detection Project
- An initial exploration into anomaly detection on Hadoop distributed system and vehicle networking logs. 
+# A Log Anomaly Detection Project [2021]
 
-For the curious minds, if you'd like more details and in-depth discussion, go here: 
-- [The Value of Data-Centric Approaches to Log Anomaly Detection.pdf](https://github.com/lukavuko/Sequential-Feature-Log-Anomaly-Detection/blob/master/The%20Value%20of%20Data-Centric%20Approaches%20to%20Log%20Anomaly%20Detection.pdf)
-
+See [The Value of Data-Centric Approaches to Log Anomaly Detection.pdf](https://github.com/lukavuko/Sequential-Feature-Log-Anomaly-Detection/blob/master/The%20Value%20of%20Data-Centric%20Approaches%20to%20Log%20Anomaly%20Detection.pdf) for an in depth exploration on anomaly detection for Hadoop distributed system and vehicle networking logs. 
 
 ### Problem Statement
 Given a labelled system log file and/or sensor data, develop a feature extraction module for anomaly detection.
@@ -19,17 +16,22 @@ Given a labelled system log file and/or sensor data, develop a feature extractio
 - As such, we'll explore the effectiveness of LSTMs in this project.
 
 ---
+### Examples:
 
-**A Hadoop distributed file system log screenshot:**
+**A Hadoop distributed file system log**
+
 ![HDFS Example](Images/fig/Slide1.PNG)
 
-**An example of sequential feature extraction:**
+**An example of sequential feature extraction**
+
 ![Feature Extraction](Images/fig/Slide3.png)
 
 ---
 
-**A car networking log example:**
+**A car networking log**
+
 ![Car Example](Images/fig/Slide2.PNG)
 
-**An example of a slightly adapted sequential feature extraction:**
+**An example of a slightly adapted sequential feature extraction**
+
 ![Feature Extraction](Images/fig/Slide4.png)
